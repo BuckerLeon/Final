@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="363.0" prefWidth="693.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.MortgageController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="36.0" prefWidth="99.0" text="Income" />
+      <Label layoutX="14.0" layoutY="62.0" prefHeight="36.0" prefWidth="99.0" text="Expenses" />
+      <Label layoutX="14.0" layoutY="111.0" prefHeight="36.0" prefWidth="99.0" text="Credit Score" />
+      <Label layoutX="14.0" layoutY="157.0" prefHeight="36.0" prefWidth="99.0" text="House Cost" />
+      <TextField layoutX="159.0" layoutY="14.0" />
+      <TextField layoutX="159.0" layoutY="62.0" />
+      <TextField layoutX="159.0" layoutY="110.0" />
+      <TextField layoutX="159.0" layoutY="156.0" />
+      <Label layoutX="14.0" layoutY="209.0" prefHeight="36.0" prefWidth="99.0" text="Term" />
+      <ComboBox layoutX="187.0" layoutY="211.0" prefWidth="150.0" />
+      <Label layoutX="14.0" layoutY="280.0" prefHeight="36.0" prefWidth="150.0" text="Mortgage Payment" />
+   </children>
+</AnchorPane>
